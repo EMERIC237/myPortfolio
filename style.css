@@ -1,3 +1,4 @@
+/* footer and header style */
 header,
 footer {
   background-color: #99ff99;
@@ -7,6 +8,7 @@ footer {
   border-color: black;
 }
 
+/* body*/
 body {
   background-image: url("images/backgoundPaper.jpg");
   background-attachment: fixed;
@@ -14,6 +16,7 @@ body {
   background-size: cover;
 }
 
+/*h1 style (most important)*/
 h1 {
   text-align: center;
   font-family: cursive, "Times New Roman", Times, serif;
@@ -23,23 +26,54 @@ h1 {
   padding: 0px;
   margin: auto 0px;
 }
+
+/* h2 style(heading inside my article) */
 h2 {
   margin: auto 0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* h2 style(heading inside my article) */
 h3 {
   margin: auto 0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* link */
+a {
+  text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* style to center my text on the page */
 .div-center {
   margin: auto;
   width: 60%;
   padding: 10px;
 }
 
+/* style for my image */
 .profile-pic {
   width: 50%;
   /*height: 150px;*/
@@ -50,15 +84,18 @@ h3 {
   padding: 10px, 10px, 10px, 10px;
 }
 
+/* class for my image inside(contact article) */
 .social {
   width: 20px;
   height: 20px;
 }
 
-ul {
-  list-style-type: circle;
+/* style for my ordered links */
+ol {
+  list-style-type: lower-alpha;
 }
 
+/* class for my links inside(contact article) */
 .social-links li {
   list-style-type: none;
   display: inline-block;
