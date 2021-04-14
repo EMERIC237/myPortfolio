@@ -1,0 +1,61 @@
+header, footer{
+    background-color: rgb(59, 48, 48);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url('images/backgoundPaper.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive,'Times New Roman', Times, serif;
+    background-color: rgb(173, 137, 206);
+    border-radius: 4%;
+    border: 2px solid ;
+    padding:0px;
+    margin: auto 0px;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-center{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.hello{
+    text-align:center;
+    font-size: 14 px;
+}
+
+.profile-pic{
+    width:50%;
+	/*height: 150px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:currentColor;
+    padding: 10px,10px,10px,10px;
+
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.social-links li{
+	list-style-type:none;
+	display: inline-block;
+}
