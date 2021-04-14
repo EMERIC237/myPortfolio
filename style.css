@@ -1,7 +1,9 @@
 header, footer{
-    background-color: rgb(59, 48, 48);
+    background-color:#99FF99;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    border-color: black;
 }
 
 body{
