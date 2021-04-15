@@ -51,7 +51,7 @@ a {
 
 /* unvisited link */
 a:link {
-  color: rgb(255, 136, 0);
+  color: yellow;
 }
 
 /* visited link */
