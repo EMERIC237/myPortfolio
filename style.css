@@ -6,16 +6,19 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 2px solid;
   border-color: black;
+  font-size: 13px;
 }
 
 /* body*/
 body {
-  background-image: url("images/backgoundPaper.jpg");
+  background-image: url("images/BG.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-x: hidden;
 }
-
 /*h1 style (most important)*/
 h1 {
   text-align: center;
@@ -43,7 +46,7 @@ h3 {
 
 /* link */
 a {
-  text-decoration: underline;
+  text-decoration: unset;
 }
 
 /* unvisited link */
@@ -76,12 +79,15 @@ a:active {
 /* style for my image */
 .profile-pic {
   width: 50%;
+  border-radius: 50%;
   /*height: 150px;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: currentColor;
   padding: 10px, 10px, 10px, 10px;
+  border-style: solid;
+  border-color:turquoise;
 }
 
 /* class for my image inside(contact article) */
@@ -98,5 +104,4 @@ ol {
 /* class for my links inside(contact article) */
 .social-links li {
   list-style-type: none;
-  display: inline-block;
 }
